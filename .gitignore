@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Build artifacts
+release.zip
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
