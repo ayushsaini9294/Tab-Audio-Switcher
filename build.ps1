@@ -7,6 +7,7 @@ $FilesToInclude = @(
     "popup.html",
     "popup.js",
     "content.js",
+    "background.js",
     "icons\icon16.png",
     "icons\icon32.png",
     "icons\icon48.png",

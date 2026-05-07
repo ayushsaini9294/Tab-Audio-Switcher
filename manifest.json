@@ -1,10 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Tab Audio Switcher",
-  "version": "1.0.0",
-  "description": "Easily switch audio output device per browser tab. Select your speaker or headphones directly from the extension popup.",
-  "permissions": ["tabs", "scripting"],
+  "version": "1.1.0",
+  "description": "Switch audio output per tab with per-site memory, multi-tab dashboard, and live audio detection.",
+  "permissions": ["tabs", "scripting", "storage"],
   "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_title": "Tab Audio Switcher",
